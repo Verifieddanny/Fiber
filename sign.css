@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Inconsolata:wght@800&family=Inter:wght@200;300;400;500;700;800&family=Montserrat:wght@700&family=Poppins&family=Roboto:wght@700&display=swap");
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.logo {
+  margin-left: 7rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-right: 15rem;
+}
+.left {
+  width: 50%;
+  padding-top: 1rem;
+  min-height: 100vh;
+}
+.lefts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right {
+  width: 50%;
+  min-height: 100vh;
+  background-color: #4d13d1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+.signUp {
+  width: 30rem;
+  height: 20rem;
+}
+.creating {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: auto;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: black !important;
+}
+.name1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: auto;
+  margin-bottom: 0;
+  color: #000000 !important;
+  margin-bottom: 1rem;
+}
+.nameText {
+  width: 25.688rem;
+  height: 3rem;
+  border: #afafaf solid 0.07rem;
+  outline: none;
+  border-radius: 0.3rem;
+}
+.nameText::placeholder {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+.photo {
+  display: none;
+}
+.mainCheck {
+  width: 25.688rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 0.5rem;
+  padding: 0;
+}
+.check {
+  margin-top: 0;
+  align-self: flex-start;
+  width: 1rem;
+  height: 1rem;
+}
+.check.kill {
+  background-color: #4d13d1;
+}
+.innercheck,
+.last {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.313rem;
+}
+.inner {
+  color: #4d13d1;
+  text-decoration: underline #4d13d1 0.1rem;
+  font-weight: 1000;
+}
+.creatAcc {
+  width: 25.688rem;
+  height: 3rem;
+  margin-top: 0.5rem;
+  background-color: #4d13d1;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.sign {
+  color: #4d13d1;
+}
+.unrave {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: auto;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: rgb(255, 255, 255) !important;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+.chip {
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1rem;
+  line-height: 1.313rem;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+.circs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 0.5rem;
+}
+.circle {
+  height: 0.7rem;
+  width: 0.7rem;
+  border-radius: 50%;
+  background-color: #ffffff77;
+}
+.circles {
+  background-color: white;
+}
+@media (max-width: 800px) {
+  .right {
+    display: none;
+  }
+  .logo {
+    margin-left: 2rem;
+  }
+  .left {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  .nameText,
+  .mainCheck,
+  .creatAcc {
+    width: 100%;
+  }
+  .lefts {
+    display: block;
+  }
+  .last {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
